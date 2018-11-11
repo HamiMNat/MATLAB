@@ -1,2 +1,2 @@
 # Matlab
-Some usefull functions &amp; scripts Written MATLAB
+Some usefull functions &amp; scripts Written in MATLAB
