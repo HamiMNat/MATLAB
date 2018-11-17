@@ -12,5 +12,5 @@ src_list = dir([src_dir,'*.',scr_format]);
 for i = 1:length(src_list)
     img = imread([src_dir src_list(i).name]);
     imwrite(img,[dst_dir,src_list(i).name(1:end-3),dst_format])
-    delete([src_dir src_list(i).name]); % uncomment to delete the source files
+    %delete([src_dir src_list(i).name]); % uncomment to delete the source files
 end
