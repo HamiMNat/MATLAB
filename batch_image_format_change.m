@@ -1,10 +1,11 @@
 %% Batch Image Format Change
+
 clear
 clc
 
-src_dir = 'E:/temp/AD/'; % source directory
+src_dir = 'C:/imgDir/'; % source directory
 scr_format = 'gif'; % source format
-dst_dir = 'E:/temp/AD/';% destination directory
+dst_dir = 'C:/imgDir/';% destination directory
 dst_format = 'png'; % destination format
 
 src_list = dir([src_dir,'*.',scr_format]);
